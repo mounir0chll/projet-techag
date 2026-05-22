@@ -1,0 +1,17 @@
+bin/
+verify-bin/
+*.class
+__pycache__/
+*.pyc
+APDescription.txt
+MTPs-Main-Container.txt
+rapport/*.aux
+rapport/*.log
+rapport/*.out
+rapport/*.toc
+build.log
+build2.log
+smoke_*.out
+smoke_*.err
+capture_*.out
+capture_*.err

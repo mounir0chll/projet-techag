@@ -1,0 +1,36 @@
+[Launcher-Part2] Demo: 1 buyer, 3 sellers, selection multicritere.
+[Launcher-Part2] Mode: acheteur mobile avec migration inter-conteneurs.
+[Launcher-Part2] Formule: score = wPrice*priceScore(min) + wQuality*qualityScore(max) + wDelivery*deliveryCostScore(min)
+[seller3] Demarrage seller. product=Ordinateur portable, price=850.0, quality=9.0, deliveryCost=7.0
+[seller2] Demarrage seller. product=Ordinateur portable, price=780.0, quality=6.0, deliveryCost=3.0
+[seller1] Demarrage seller. product=Ordinateur portable, price=900.0, quality=8.0, deliveryCost=5.0
+[Launcher-Part2] JADE GUI conservee ouverte: les agents restent visibles dans la table.
+[buyerPart2] Demarrage buyer. product=Ordinateur portable, priceWeight=0.35, qualityWeight=0.5, deliveryCostWeight=0.15
+[buyerPart2] Sellers connus=seller1, seller2, seller3
+[buyerPart2] conversationId=part2-selection-buyerPart2-1779470977292
+[buyerPart2] Mode mobile active. Home=buyer-site, itinerary=Main-Container
+[buyerPart2] Migration demandee vers Main-Container
+[buyerPart2] beforeMove depuis buyer-site
+[buyerPart2] afterMove vers Main-Container
+[buyerPart2] CFP local envoye aux vendeurs seller1, seller2, seller3 depuis Main-Container
+[seller3] PROPOSE envoye pour Ordinateur portable inReplyTo=part2-selection-buyerPart2-1779470977292-mobile-request-Main-Container
+[seller1] PROPOSE envoye pour Ordinateur portable inReplyTo=part2-selection-buyerPart2-1779470977292-mobile-request-Main-Container
+[seller2] PROPOSE envoye pour Ordinateur portable inReplyTo=part2-selection-buyerPart2-1779470977292-mobile-request-Main-Container
+[buyerPart2] Offre mobile collectee: seller=seller1, price=900.0, quality=8.0, deliveryCost=5.0
+[buyerPart2] Offre mobile collectee: seller=seller3, price=850.0, quality=9.0, deliveryCost=7.0
+[buyerPart2] Offre mobile collectee: seller=seller2, price=780.0, quality=6.0, deliveryCost=3.0
+[buyerPart2] Migration demandee vers buyer-site
+[buyerPart2] beforeMove depuis Main-Container
+[buyerPart2] afterMove vers buyer-site
+[buyerPart2] Retour au conteneur home. Offres collectees=3
+[buyerPart2] Score seller1 = 0.4083333333333333 (price=0.0, quality=0.6666666666666666, deliveryCost=0.5)
+[buyerPart2] Score seller3 = 0.6458333333333334 (price=0.4166666666666667, quality=1.0, deliveryCost=0.0)
+[buyerPart2] Score seller2 = 0.5 (price=1.0, quality=0.0, deliveryCost=1.0)
+[buyerPart2] Meilleure offre retenue: seller=seller3, price=850.0, quality=9.0, deliveryCost=7.0
+[seller1] Offre rejetee: result=REJECTED;product=Ordinateur portable
+[seller2] Offre rejetee: result=REJECTED;product=Ordinateur portable
+[seller3] Offre acceptee: result=ACCEPTED;product=Ordinateur portable
+[seller1] Agent conserve dans la table JADE.
+[buyerPart2] Agent conserve dans la table JADE.
+[seller3] Agent conserve dans la table JADE.
+[seller2] Agent conserve dans la table JADE.
