@@ -8,7 +8,6 @@ Mini-projet Technologies des Agents : JADE, AIMA POP et planification distribuee
 - `partie 2` : agent mobile JADE et decision multicritere.
 - `partie 3` : test AIMA Partial Order Planner.
 - `partie 4` : simulation Bill/Tom.
-- `rapport` : rapport LaTeX, PDF final, logo et traces console.
 - `lib` : `jade.jar`.
 
 ## Execution Java

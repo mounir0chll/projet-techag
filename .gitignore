@@ -5,10 +5,6 @@ __pycache__/
 *.pyc
 APDescription.txt
 MTPs-Main-Container.txt
-rapport/*.aux
-rapport/*.log
-rapport/*.out
-rapport/*.toc
 build.log
 build2.log
 smoke_*.out
